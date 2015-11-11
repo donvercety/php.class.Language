@@ -17,7 +17,7 @@ $l->setLanguages([
 	"BG" => 0,
 	"EN" => 1,
 ]);
-$l->loadData('data.txt');
+$l->loadData('data.txt'); // or maybe .csv file
 
 // choose a language, to be displayed in the site
 $l->chooseLanguage("BG");
